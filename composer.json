@@ -1,0 +1,23 @@
+{
+    "name": "matteo/elasticsearch-test",
+    "require": {
+        "elasticsearch/elasticsearch": "~1.0",
+        "fzaninotto/faker": "@stable"
+    },
+    "require-dev": {
+        "symfony/console": "@stable",
+        "elasticsearch/elasticsearch": "@stable"
+    },
+    "authors": [
+        {
+            "name": "Matteo",
+            "email": "matteog@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "EsTest": "src"
+        }
+    }
+}
